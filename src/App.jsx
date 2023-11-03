@@ -8,7 +8,7 @@ import AppDeco from "./components/decomposition/AppDeco";
 
 function App() {
   return (
-    <BrowserRouter basename={`/${name}/`}>
+    <BrowserRouter basename={"/hw_react_composition/"}>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         <Route
