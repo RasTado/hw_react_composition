@@ -1,0 +1,9 @@
+.search-input {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+}
+
+.search-input input {
+    flex-grow: 1;
+}

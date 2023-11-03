@@ -1,0 +1,25 @@
+import "../css/SearchPanel.css";
+import Category from "./Category";
+import SearchInput from "./SearchInput";
+
+function SearchPanel() {
+  return (
+    <div className="search-panel">
+      <div className="categories">
+        <Category url="#" name="Видео" />
+        <Category url="#" name="Картинки" />
+        <Category url="#" name="Новости" />
+        <Category url="#" name="Карты" />
+        <Category url="#" name="Маркет" />
+        <Category url="#" name="Переводчик" />
+        <Category url="#" name="Ефир" />
+      </div>
+      <SearchInput
+        name="Нетология"
+        url="data:image/png;base64,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"
+      />
+    </div>
+  );
+}
+
+export default SearchPanel;
