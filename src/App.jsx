@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { name } from "../package.json";
 
 import { HomePage, Backe } from "./components/HomePage";
 import Cards from "./components/cards/Cards";

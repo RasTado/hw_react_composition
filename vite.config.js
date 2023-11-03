@@ -1,5 +1,4 @@
 import { defineConfig } from "vite";
-import { name } from "./package.json";
 import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
